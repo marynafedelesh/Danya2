@@ -1,17 +1,21 @@
 body {
-    font-family: sans-serif;
-    background-color: aqua;
-}
-
-nav{
-    text-align: center;
-    padding: 10px;
-}
-
-h1{
-    font-size: 36px;
-    color: rgb(0, 0, 0);
-    font-weight: normal;
-    padding-bottom: 5px;
-    text-align: center;
-}
+            font-family: sans-serif;
+            background-color: aqua;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            padding-bottom: 5px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
