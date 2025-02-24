@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    background-color: aqua;
+}
+
+nav{
+    text-align: center;
+    padding: 10px;
+}
+
+h1{
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    padding-bottom: 5px;
+    text-align: center;
+}
